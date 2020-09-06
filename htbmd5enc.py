@@ -5,7 +5,7 @@ import requests
 import hashlib
 from bs4 import BeautifulSoup
 
-url = 'http://docker.hackthebox.eu:[port]'
+url = 'http://docker.hackthebox.eu:[port]' #port varies
 
 #create a session
 s = requests.session()
